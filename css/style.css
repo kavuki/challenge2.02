@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#challenge-heading{
+    padding-top: 2%;
+}
+
+.box {
+    width: 200px; 
+    height: 200px; 
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    padding: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin: 20px auto;
+  }
+
+  .animate-box{
+    animation: scaleDiv 2s;
+  }
+
+  @keyframes scaleDiv{
+    0%{
+        width:100%;
+    }
+
+    50%{
+        width: 50%;
+    }
+
+    100%{
+        width:100%;
+    }
+  }
+
+.color-box{
+    background-color: royalblue;
+    border: 2px solid royalblue;
+}
+
+.reset {
+    position:absolute;
+    top: 70px;
+    right:100px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid goldenrod;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
